@@ -1,0 +1,17 @@
+{
+  "name": "best-price-gadgets",
+  "description": "Small description for best-price-gadgets goes here",
+  "main": "",
+  "authors": [
+    "njorogedavid13@gmail.com <njorogedavid13@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

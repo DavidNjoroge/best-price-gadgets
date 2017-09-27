@@ -1,0 +1,41 @@
+<div class="container">
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Register</a>
+    </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">CART: 0</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </li>
+
+  </ul>
+  <div class="jumbotron">
+<h1>best price gadgets</h1>
+  </div>
+</div>
+<div class="container">
+  <div class="card-group">
+{{#each model as |product|}}
+<div class="card">
+  <img class="card-img-top" src="{{product.img}}" alt="Card image cap">
+  <div class="card-body">
+    <h4 class="card-title">{{product.name}}</h4>
+    <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+    <button class="btn btn-primary" name="button">add to cart</button>
+  </div>
+</div>
+{{/each}}
+
+
+  </div>
+</div>
